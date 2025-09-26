@@ -1,0 +1,4 @@
+FROM harbor.nm.ljyun.cn/docker/vllm/vllm-openai:v0.10.2
+
+
+COPY ./vllm /usr/local/lib/python3.12/dist-packages/vllm
